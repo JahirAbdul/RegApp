@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+<package name="default" extends="struts-default">
+	<action name="Login" class="com.javatpoint.Loginbean">
+		<result name="success">/index.jsp</result>
+		<result name="error">/jsp/login.jsp</result>
+	</action>
+	<action name="Product"  class="com.javatpoint.Product">
+		<result name="success">/jsp/index.jsp</result>
+		<result name="input">/jsp/error.jsp</result>
+	</action>
+	<action name="FetchData" class="com.admin.Display">
+		<result name="SUCCESS">/jsp/displaydata.jsp</result>
+	</action>
+	<action name="ExportData" class="com.admin.Export">
+		<result name="success">/jsp/successexp.jsp</result>
+		<result name="input">/jsp/error.jsp</result>
+	</action>
+</package>
+</struts>    
