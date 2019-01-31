@@ -1,7 +1,7 @@
 package com.javatpoint;
 
 import java.util.Map;
-import  java.io.*;
+import java.io.*;
 import org.apache.struts2.dispatcher.SessionMap;
 import org.apache.struts2.interceptor.SessionAware;
 
@@ -27,16 +27,16 @@ public void setPassword(String password) {
 
 public String execute(){
 	try{
-		String filename="D:/result.txt" ;
-		FileOutputStream fileOut =  new FileOutputStream(filename);
+		//String filename="D:/result.txt" ;
+		//FileOutputStream fileOut =  new FileOutputStream(filename);
 		if(LoginDAO.validate(username,password)){
-			fileOut.write(65);
-			fileOut.close();
+			//fileOut.write(65);
+			//fileOut.close();
 			return "success";
 		}
 		else{
-			fileOut.write(66);
-			fileOut.close();
+			//fileOut.write(66);
+			//fileOut.close();
 			return "error";
 		}
 	}catch(Exception e){

@@ -26,12 +26,12 @@
 <body>
 	<form action="Login" method="POST">
 	<h4>User ID<br>
-	<input type="text" name="userid" id="userid">
+	<input type="textbox" name="username" id="username">
 	</h4>
 	<h4>PASSWORD<br>
 	<input type="PASSWORD" name="password" id="password">
 	</h4>
-	<input type="submit" value="Submit" onclick="validatePassword()">
+	<input type="submit" value="Submit" onclick="return validatePassword()">
 	<input type="reset" value="Cancel">
 	</form>
 	

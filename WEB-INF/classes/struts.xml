@@ -6,8 +6,8 @@
 
 <package name="default" extends="struts-default">
 	<action name="Login" class="com.javatpoint.Loginbean">
-		<result name="success">/index.jsp</result>
-		<result name="error">/jsp/login.jsp</result>
+		<result name="success">/jsp/index.jsp</result>
+		<result name="error">/jsp/error.jsp</result>
 	</action>
 	<action name="Product"  class="com.javatpoint.Product">
 		<result name="success">/jsp/index.jsp</result>
