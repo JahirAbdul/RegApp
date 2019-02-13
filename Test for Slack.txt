@@ -1,1 +1,0 @@
-This is to test whether the commit notification gets updated to the Slack or not.
