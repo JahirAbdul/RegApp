@@ -142,6 +142,6 @@ REGISTERED DETAILS
 			</table>
 </div>
 <br>
-<input type="button" onclick="location.href = 'jsp/index.jsp';" id="myButton" class="float-left submit-button" value="Home">
+<input type="button" onclick="location.href = 'index.jsp';" id="myButton" class="float-left submit-button" value="Home">
 </body>
 </html>

@@ -83,7 +83,7 @@ width:500px;
 var request; 
 function sendInfo(){
 var email=document.getElementById("mail_Id").value;  
-var url="jsp/emailfinder.jsp?email="+email;  
+var url="emailfinder.jsp?email="+email;  
 if(window.XMLHttpRequest){  
 request=new XMLHttpRequest();  
 }  
